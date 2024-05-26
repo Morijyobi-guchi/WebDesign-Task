@@ -1,0 +1,51 @@
+@charset "utf-8";
+table, th, td{
+    border: solid 3px black;
+    /* border-bottom: solid 20px black; */
+    border-collapse: collapse;
+    text-align:center;
+}
+
+td img{
+    width: 280px;
+}
+
+thead tr{
+    background-color: #87cefa70;
+    border:solid 7px black;
+}
+
+caption{
+    font-size: 54px;
+    color: rgb(139, 143, 171);
+    font-weight: bold;
+
+}
+
+body{
+    
+    font-family: "Noto Serif JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+    background-image: url(img/bg_visual_sp.jpg);
+    color: #000000;
+    background-size: cover;
+
+}
+
+th{
+    font-size: 25px;
+}
+
+td{
+    font-size:20px;
+    font-weight: bold;
+   
+}
+
+th,td{
+    padding:30px;
+    
+    
+}
+table{
+    background-color:rgba(237, 246, 255, 0.5);
+}
