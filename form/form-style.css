@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* type属性値がtextのinputタグ全てに適用 */
+input[type="text"]{
+    margin-right: 0.5rem;
+    border:1px red solid;
+}
+
+/* type属性がついているinputタグ全てに適用 */
+input[type]{
+    margin-bottom: 0.5rem;
+}
+
+.terms{
+    font-size:0.7rem;
+}
+fieldset{
+    margin: 10px 5px;
+}
+
