@@ -3,6 +3,7 @@
 input[type="text"]{
     margin-right: 0.5rem;
     border:1px red solid;
+    background-color: aqua;
 }
 
 /* type属性がついているinputタグ全てに適用 */
